@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>File downloader</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="toggle.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>File downloader</h1>
+        <p>paste url of image, video, or pdf to download</p>
+      </header>
+      <form action="#">
+        <input type="url" placeholder="paste file url" required />
+        <button>download File</button>
+      </form>
+    </div>
+    <label class="toggle-label">
+      <input class="toggle-checkbox" type="checkbox" />
+      <div class="toggle-slot">
+        <div class="sun-icon-wrapper">
+          <div
+            class="iconify sun-icon"
+            data-icon="feather-sun"
+            data-inline="false"
+          ></div>
+        </div>
+        <div class="toggle-button"></div>
+        <div class="moon-icon-wrapper">
+          <div
+            class="iconify moon-icon"
+            data-icon="feather-moon"
+            data-inline="false"
+          ></div>
+        </div>
+      </div>
+    </label>
+
+    <script src="script.js"></script>
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>
